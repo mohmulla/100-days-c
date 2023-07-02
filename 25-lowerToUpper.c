@@ -20,8 +20,6 @@ int main()
 
 void lowerToUpper(char string[])
 {
-	char c = 'A';
-	char a = 'a';
 	for (int i = 0; string[i] != '\0'; i++)
 	{
 		if (string[i] != ' ')
