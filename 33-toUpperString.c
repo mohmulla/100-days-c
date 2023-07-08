@@ -1,4 +1,4 @@
-// program that finds if brackets are balanced
+// program that returns a palindromic substring
 //
 
 #include <stdio.h>
