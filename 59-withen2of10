@@ -1,0 +1,23 @@
+// program that returns if number with 2 of multiple of 10
+//
+
+#include <stdio.h>
+#include <stdbool.h>
+
+
+int main()
+{
+	bool withen2Of10(int n);
+	
+	printf("%i",withen2Of10(20));
+
+	return 0;
+}
+
+bool withen2Of10(int n)
+{
+	if (n % 10 <= 2 || n % 10 >= 8)
+		return true;
+	else
+		return false;
+}
